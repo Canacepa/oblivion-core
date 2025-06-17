@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oblivion Core</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Montserrat:ital,wght@0,100..900;1,100..900&family=New+Amsterdam&family=Orbitron:wght@400..900&family=Sulphur+Point:wght@300;400;700&family=Viaoda+Libre&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./CSS/main.css" />
+
+    <script src="./JS/Index.js"></script>
+  </head>
+  <body>
+    <div class="hero" id="home">
+      <div class="animation-container">
+        <div id="anim" class="circle-container"></div>
+      </div>
+      <div class="hero-content">
+        <div class="logo-hero left">
+          <img src="./Img/Overwatch_circle_logo.svg.png" alt="Logo Overwatch" />
+        </div>
+        <h1 class="new-amsterdam-regular">Oblivion Core</h1>
+        <div class="logo-hero right">
+          <img src="./Img/Overwatch_circle_logo.svg.png" alt="Logo Overwatch" />
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="description sulphur-point-regular">
+        <p>
+          Oblivion Core est une équipe formée par un groupe d’amis qui partagent
+          la même envie : progresser sérieusement sur Overwatch 2 tout en
+          gardant une ambiance fun et détendue.
+        </p>
+        <p>
+          Notre objectif est de construire une vraie synergie d’équipe, en
+          travaillant la coordination, la communication, et l’adaptation sur le
+          long terme.
+        </p>
+        <p>
+          On cherche à évoluer ensemble, monter en ranked, s’essayer à la
+          compétition, et surtout continuer à prendre du plaisir à chaque match.
+        </p>
+      </div>
+    </div>
+
+    <div class="container" id="team">
+      <h2 class="new-amsterdam-regular">Notre équipe :</h2>
+      <div class="team sulphur-point-regular">
+        <div class="member">
+          <img src="./Img/Yamaxe.jpg" alt="Yamaxe" />
+          <h3>Yamaxe</h3>
+          <div class="description-team">
+            <p>
+              Salut je suis le main Tank, grand fan de Poko, je suis toujours
+              prêt à protéger ma team.
+            </p>
+            <p>
+              Je tryhard énormément tout en restant le plus posé, mon objectif
+              est de mener mon équipe à la victoire. Gloire à la Poko Bombe !!!
+            </p>
+          </div>
+        </div>
+        <div class="member">
+          <img src="./Img/Mwwaa.jpg" alt="Mwwaa" />
+          <h3>Mwwaa</h3>
+          <div class="description-team">
+            <p>
+              Main junkrat, Sojourn, reaper, vous me verrez un peu partout. Je
+              tente de tenir le front avec les tank.
+            </p>
+            <p>
+              J'ai une vision du jeu qui me permet de voir ce qu'il se passe sur
+              le champ de bataille. Faites-moi confiance pour vous guidez vers
+              la victoire.
+            </p>
+          </div>
+        </div>
+        <div class="member">
+          <img src="./Img/Black.jpg" alt="Black" />
+          <h3>Blackmaester</h3>
+          <div class="description-team">
+            <p>DSP/healer depuis 2016</p>
+            <p>
+              Bien qu'affecter par son autisme, il se bat contre le système et
+              luis même pour s'améliorer.
+            </p>
+            <p>
+              Passionner de jeux coopératif et stratégique, il met sa vision
+              particulière au service de son équipe.
+            </p>
+          </div>
+        </div>
+        <div class="member">
+          <img src="./Img/Cana.jpg" alt="Cana" />
+          <h3>Canacepa</h3>
+          <div class="description-team">
+            <p>
+              Joueuse d’Overwatch depuis le jour 1, toujours présente pour
+              soutenir son équipe.
+            </p>
+            <p>
+              Tank ou heal, elle garde son équipe en vie… ou fonce dans le tas,
+              au choix !
+            </p>
+          </div>
+        </div>
+        <div class="member">
+          <img src="./Img/Ganou.jpg" alt="Ganou" />
+          <h3>Ganoudorf</h3>
+          <div class="description-team">
+            <p>
+              Débutant complet sur Overwatch, mon autisme est un frein, mais mon
+              bon cœur apporte du soin !
+            </p>
+          </div>
+        </div>
+        <div class="member">
+          <img src="./Img/Falcon.jpg" alt="Falcon" />
+          <h3>Falcon_cry</h3>
+          <div class="description-team">
+            <p>description</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="live">
+      <h2 class="new-amsterdam-regular">Live</h2>
+      <div class="live sulphur-point-regular">
+        <p>
+          Retrouvez-nous en direct sur Twitch pour suivre nos parties, nos
+          stratégies et notre progression en temps réel.
+        </p>
+        <div id="twitch-embed"></div>
+
+        <script src="https://embed.twitch.tv/embed/v1.js"></script>
+        <script type="text/javascript">
+          new Twitch.Embed("twitch-embed", {
+            width: 854,
+            height: 480,
+            channel: "oblivioncoreteam",
+            // Only needed if this page is going to be embedded on other websites
+            // parent: ["embed.example.com", "othersite.example.com"],
+          });
+        </script>
+        <a href="https://www.twitch.tv/oblivioncoreteam" target="_blank"
+          >Regarder le live</a
+        >
+      </div>
+      <div class="social-media">
+        <p>
+          Suivez-nous sur
+          <a href="https://www.twitch.tv/oblivioncoreteam" target="_blank"
+            >Twitch</a
+          >
+          <a href="https://www.tiktok.com/@teamoblivioncor" target="_blank"
+            >Tiktok</a
+          >
+          <a href="https://www.youtube.com/@TeamOblivionCore" target="_blank"
+            >YouTube</a
+          >
+          <!-- <a href="https://discord.gg/oblivioncore" target="_blank">Discord</a> -->
+          <a href="https://www.instagram.com/teamoblivioncore/" target="_blank"
+            >Instagram</a
+          >
+        </p>
+      </div>
+    </div>
+
+    <div class="navbar new-amsterdam-regular">
+      <div class="nav-links">
+        <div class="logo">
+          <a href="#home">
+            <img src="./Img/logo trans 1.png" alt="Oblivion Core Logo" />
+          </a>
+        </div>
+        <a href="#team">L'equipe</a>
+        <a href="#live">Live</a>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>&copy; 2023 Oblivion Core. Tous droits réservés.</p>
+    </div>
+  </body>
+</html>
