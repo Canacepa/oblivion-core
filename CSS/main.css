@@ -158,14 +158,28 @@ a {
   width: 80%;
   min-width: 300px;
   margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
 }
 
-.description-team {
-  height: 100%;
+.container h2 {
+  color: #ffffff;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.description-oblivion {
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 80%;
+  min-width: 300px;
+}
+
+.description-oblivion p {
+  margin-bottom: 50px;
 }
 
 .live {
@@ -179,7 +193,6 @@ a {
 }
 
 .live-description {
-  font-size: 2rem;
   width: 80%;
   min-width: 300px;
   display: flex;
@@ -301,12 +314,23 @@ a {
 
 .description-team{
   color: #ffffff;
-  font-size: 1.2rem;
   left: 0;
   padding: var(--spacing-l);
   position: absolute;
   top: 0;
   visibility: hidden;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+
+.description-team p{
+  margin-bottom: var(--spacing-s);
+  text-align: center;
+  font-size: 1.5rem;
+  text-shadow: #000000 2px 2px 20px;
 }
 
 .card:hover .description-team{
