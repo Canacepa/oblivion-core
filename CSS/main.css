@@ -296,6 +296,21 @@ a {
   padding: var(--spacing-l);
   position: absolute;
   top: 0;
+  text-align: center;
+}
+
+.description-team{
+  color: #ffffff;
+  font-size: 1.2rem;
+  left: 0;
+  padding: var(--spacing-l);
+  position: absolute;
+  top: 0;
+  visibility: hidden;
+}
+
+.card:hover .description-team{
+  visibility: visible;
 }
 
 .card__category{
