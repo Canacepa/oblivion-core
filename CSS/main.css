@@ -20,6 +20,9 @@
 html {
   height: 100%;
   scroll-behavior: smooth;
+  font-family: "Sulphur Point", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 * body {
@@ -40,6 +43,9 @@ body {
 a {
   text-decoration: none;
   text-align: center;
+  font-family: "New Amsterdam", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .navbar {
@@ -101,6 +107,9 @@ a {
   justify-content: center;
   color: #ffffff;
   font-size: 15rem;
+  font-family: "New Amsterdam", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .hero-content {
@@ -166,6 +175,9 @@ a {
   color: #ffffff;
   font-size: 3rem;
   text-align: center;
+  font-family: "New Amsterdam", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .description-oblivion {
@@ -188,31 +200,28 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 80%;
+  min-width: 300px;
   height: 100%;
 }
 
-.live-description {
-  width: 80%;
-  min-width: 300px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-}
-
-.live-description h2 {
-  margin-bottom: 20px;
-}
-
-.live-description p {
+.live p {
   width: 80%;
   min-width: 300px;
   text-align: center;
   font-size: 1.5rem;
-  margin-bottom: 20px;
+  margin: 20px 0;
 }
+
+.live-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  min-width: 300px;
+}
+
 
 .twitch {
   width: 80%;
@@ -221,17 +230,23 @@ a {
 }
 
 .social-media {
-  width: 80%;
-  height: 20vh;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
 .social-media a {
+  display: block;
+  width: 20%;
+  height: auto ;
   color: #ffffff;
   font-size: 1.5rem;
   text-decoration: none;
+}
+
+.social-media svg {
+  width: 100px;
+  height: 100px;
 }
 
 
@@ -350,56 +365,4 @@ a {
   text-shadow: 2px 2px 20px rgba(0,0,0,0.2);
   line-height: 1.4;
   word-spacing: 100vw;
-}
-
-/* Fonts */
-
-.sulphur-point-light {
-  font-family: "Sulphur Point", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.sulphur-point-regular {
-  font-family: "Sulphur Point", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.sulphur-point-bold {
-  font-family: "Sulphur Point", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.montserrat-uniquifier {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.orbitron-uniquifier {
-  font-family: "Orbitron", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.new-amsterdam-regular {
-  font-family: "New Amsterdam", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.viaoda-libre-regular {
-  font-family: "Viaoda Libre", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.medievalsharp-regular {
-  font-family: "MedievalSharp", cursive;
-  font-weight: 400;
-  font-style: normal;
 }
