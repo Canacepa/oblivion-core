@@ -33,7 +33,7 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container description-team" id="team">
       <div class="description sulphur-point-regular">
         <p>
           Oblivion Core est une équipe formée par un groupe d’amis qui partagent
@@ -52,9 +52,9 @@
       </div>
     </div>
 
-    <div class="container" id="team">
+    <div class="container sulphur-point-regular" id="members">
       <h2 class="new-amsterdam-regular">Notre équipe :</h2>
-      <div class="team sulphur-point-regular">
+      <!-- <div class="team sulphur-point-regular">
         <div class="member">
           <img src="./Img/Yamaxe.jpg" alt="Yamaxe" />
           <h3>Yamaxe</h3>
@@ -130,50 +130,89 @@
             <p>description</p>
           </div>
         </div>
-      </div>
-      <!-- <div class ="card-section"> -->
-
+      </div> -->
+      <div class="card-section">
         <div class="card-grid">
           <a class="card" href="#">
-            <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1557177324-56c542165309?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80)"></div>
+            <div
+              class="card__background"
+              style="background-image: url(./Img/Yamaxe.jpg)"
+            ></div>
             <div class="card__content">
-              <p class="card__category">Category</p>
-              <h3 class="card__heading">Example Card Heading</h3>
+              <p class="card__category">Tank</p>
+              <h3 class="card__heading">Yamaxe</h3>
             </div>
           </a>
           <a class="card" href="#">
-            <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1557187666-4fd70cf76254?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)"></div>
+            <div
+              class="card__background"
+              style="background-image: url(./Img/Mwwaa.jpg)"
+            ></div>
             <div class="card__content">
-              <p class="card__category">Category</p>
-              <h3 class="card__heading">Example Card Heading</h3>
+              <p class="card__category">Dps</p>
+              <h3 class="card__heading">Mwwaa</h3>
             </div>
           </a>
           <a class="card" href="#">
-            <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1556680262-9990363a3e6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)"></div>
+            <div
+              class="card__background"
+              style="background-image: url(./Img/Black.jpg)"
+            ></div>
             <div class="card__content">
-              <p class="card__category">Category</p>
-              <h3 class="card__heading">Example Card Heading</h3>
+              <p class="card__category">Dps</p>
+              <h3 class="card__heading">Blackmaester</h3>
             </div>
-          </li>
+          </a>
           <a class="card" href="#">
-            <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1557004396-66e4174d7bf6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)"></div>
+            <div
+              class="card__background"
+              style="
+                background-image: url(./Img/Ganou.jpg);
+              "
+            ></div>
             <div class="card__content">
-              <p class="card__category">Category</p>
-              <h3 class="card__heading">Example Card Heading</h3>
+              <p class="card__category">Heal</p>
+              <h3 class="card__heading">Ganoudorf</h3>
+            </div>
+          </a>
+          <a class="card" href="#">
+            <div
+              class="card__background"
+              style="
+                background-image: url(./Img/Falcon.jpg);
+              "
+            ></div>
+            <div class="card__content">
+              <p class="card__category">Heal</p>
+              <h3 class="card__heading">Falcon_cry</h3>
+            </div>
+          </a>
+          <a class="card" href="#">
+            <div
+              class="card__background"
+              style="
+                background-image: url(./Img/Cana.jpg);
+              "
+            ></div>
+            <div class="card__content">
+              <p class="card__category">Remplacant</p>
+              <h3 class="card__heading">Canacepa</h3>
             </div>
           </a>
         </div>
       </div>
     </div>
-    </div>
-      
+
     <div class="container" id="live">
       <div class="live sulphur-point-regular">
+        <div class="live-description">
         <h2 class="new-amsterdam-regular">Live</h2>
         <p>
           Retrouvez-nous en direct sur Twitch pour suivre nos parties, nos
           stratégies et notre progression en temps réel.
         </p>
+        </div>
+        <div class="twitch">
         <div id="twitch-embed"></div>
 
         <script src="https://embed.twitch.tv/embed/v1.js"></script>
@@ -186,9 +225,10 @@
             // parent: ["embed.example.com", "othersite.example.com"],
           });
         </script>
+        </div>
       </div>
-      <div class="social-media sulphur-point-regular">
-        <p>
+      <div class="socials sulphur-point-regular">
+        <p class="social-media">
           Suivez-nous sur
           <a href="https://www.twitch.tv/oblivioncoreteam" target="_blank"
             >Twitch</a
@@ -215,6 +255,7 @@
           </a>
         </div>
         <a href="#team">L'equipe</a>
+        <a href="#members">Les membres</a>
         <a href="#live">Live</a>
       </div>
     </div>
